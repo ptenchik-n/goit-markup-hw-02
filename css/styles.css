@@ -1,3 +1,22 @@
-body {
-  background-color: aquamarine;
+.section-1 {
+  background-color: #2e2f42;
+}
+h1 {
+  color: white;
+}
+.section-2 {
+  background-color: white;
+}
+.section-3 {
+  background-color: #f4f4fd;
+}
+.section-4 {
+  background-color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+}
+.button {
+  background-color: #4d5ae5;
+  color: white;
 }
