@@ -1,22 +1,60 @@
-.section-1 {
+.title {
   background-color: #2e2f42;
-}
-h1 {
   color: white;
 }
-.section-2 {
+body {
+  font-family: Roboto;
+}
+.logo-name {
+  color: #4d5ae5;
+}
+.logo-down-name {
+  color: #4d5ae5;
+}
+.logo-second-part {
+  color: #f4f4fd;
+}
+.company-structure {
   background-color: white;
+  color: #2e2f42;
 }
-.section-3 {
-  background-color: #f4f4fd;
+.company-activity {
+  background-color: white;
+  color: #2e2f42;
 }
-.section-4 {
+.team-workers {
   background-color: #f4f4fd;
+  color: #2e2f42;
+}
+.valuables-list-descr {
+  color: #434455;
 }
 footer {
   background-color: #2e2f42;
 }
-.button {
+.main-button {
   background-color: #4d5ae5;
   color: white;
+}
+.link {
+  text-decoration: none;
+  color: #434455;
+}
+.main-button:hover {
+  color: white;
+  background-color: #404bbf;
+}
+.other-buttons {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+}
+.other-buttons:hover {
+  color: white;
+  background-color: #404bbf;
+}
+.footer-descr {
+  color: #f4f4fd;
+}
+li {
+  list-style-type: none;
 }
