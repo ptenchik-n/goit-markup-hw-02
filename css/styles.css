@@ -2,9 +2,6 @@
   background-color: #2e2f42;
   color: white;
 }
-body {
-  font-family: Roboto;
-}
 .logo-name {
   color: #4d5ae5;
 }
@@ -57,4 +54,7 @@ footer {
 }
 li {
   list-style-type: none;
+}
+.input-list:hover {
+  color: #404bbf;
 }
