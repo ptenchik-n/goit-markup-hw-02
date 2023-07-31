@@ -1,3 +1,11 @@
+:root {
+  --brand-color: #404bf4;
+  --primary-white-color: #ffffff;
+  --body-color: #434455;
+  --clasic-background-color: #f4f4fd;
+  --footer-color: #2e2f42;
+  --button-color: #4d5ae5;
+}
 .title {
   background-color: #2e2f42;
   color: white;
@@ -11,14 +19,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-name-portf {
-  color: #4d5ae5;
+.logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-down-name {
   font-family: "Raleway", sans-serif;
@@ -27,7 +35,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .logo-second-part {
   color: #f4f4fd;
@@ -48,6 +56,11 @@
 .team-workers {
   background-color: #f4f4fd;
   color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .valuables-list-descr {
   color: #434455;
@@ -57,6 +70,15 @@
 }
 .page-down {
   background-color: #2e2f42;
+}
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .main-button {
   background-color: #4d5ae5;
@@ -70,7 +92,6 @@
 }
 .link {
   text-decoration: none;
-  color: #434455;
 }
 .main-button:hover {
   color: white;
@@ -137,7 +158,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-info {
+address {
   font-style: normal;
 }
 .wrapper {
@@ -160,6 +181,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .second-title {
   font-weight: 500;
@@ -170,4 +192,16 @@ body {
 }
 .page-down-portf {
   background-color: #2e2f42;
+}
+.contacts-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-list:hover {
+  color: #404bbf;
+}
+.contacts-list:focus {
+  color: #404bbf;
 }
