@@ -205,3 +205,9 @@ address {
 .contacts-list:focus {
   color: #404bbf;
 }
+.section-team {
+  background-color: #f4f4fd;
+}
+.specialists {
+  background-color: #ffffff;
+}
